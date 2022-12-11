@@ -7,14 +7,14 @@ import DeleteIcon from '@mui/icons-material/Delete';
 
 
 export const ListElement = ({ contact }) => {
-  const { name, phone, id } = contact;
+  const { name, number, id } = contact;
 
   const [deleteItem, { isLoading }] = useDeleteItemMutation();
 
   return (
     <StyledLi>
       <p>
-        {name} : {phone}
+        {name} : {number}
       </p>
       <Button
         variant="outlined"
