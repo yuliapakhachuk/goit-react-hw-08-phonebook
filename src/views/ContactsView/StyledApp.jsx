@@ -7,6 +7,7 @@ export const StyledApp = styled.div`
   color: #010101;
   margin: 50px auto;
   padding: 50px 20px;
+  height: 100vh;
   h1 {
     font-size: 28px;
   }

@@ -31,10 +31,10 @@ export const StyledLink = styled(NavLink)`
   font-weight: 500;
   transition: 300ms ease;
   &:hover {
-    background-color: #e5dcc3;
+    background-color: #db4bff;
   }
   &.active {
     color: white;
-    background-color: #9a9483;
+    background-color: #db4bff;
   }
 `;
