@@ -11,7 +11,7 @@ export const StyledLi = styled.li`
   border-radius: 4px;
   transition: ease-in 200ms;
   button {
-    display: flex;
+    /* display: flex; */
     padding: 8px 24px;
     border-radius: 4px;
     border: 1px solid #31615a;
